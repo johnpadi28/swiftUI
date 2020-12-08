@@ -78,7 +78,7 @@
 		4874386A256C26A4001FE7AB = {
 			isa = PBXGroup;
 			children = (
-				48743875256C26A4001FE7AB /* LandMarks */,
+				48743875256C26A4001FE7AB /* Landmarks */,
 				48743874256C26A4001FE7AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +91,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48743875256C26A4001FE7AB /* LandMarks */ = {
+		48743875256C26A4001FE7AB /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
 				48743876256C26A4001FE7AB /* AppDelegate.swift */,
@@ -100,15 +100,14 @@
 				4888EECE256D5DA400BD8C65 /* LandmarkRow.swift */,
 				4888EED5256D603600BD8C65 /* LandmarkList.swift */,
 				4888EEAD256D5CEC00BD8C65 /* Model */,
-				48743893256C2AC7001FE7AB /* CircleImage.swift */,
-				48743896256C2D1E001FE7AB /* MapView.swift */,
+				4888EFFC25755D8F00BD8C65 /* Support Views */,
 				4888EEB2256D5D0600BD8C65 /* Resources */,
 				4874387C256C26A5001FE7AB /* Assets.xcassets */,
 				48743881256C26A5001FE7AB /* LaunchScreen.storyboard */,
 				48743884256C26A5001FE7AB /* Info.plist */,
 				4874387E256C26A5001FE7AB /* Preview Content */,
 			);
-			path = LandMarks;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		4874387E256C26A5001FE7AB /* Preview Content */ = {
@@ -146,6 +145,15 @@
 				4888EEBF256D5D6400BD8C65 /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4888EFFC25755D8F00BD8C65 /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				48743893256C2AC7001FE7AB /* CircleImage.swift */,
+				48743896256C2D1E001FE7AB /* MapView.swift */,
+			);
+			path = "Support Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,7 +394,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnpadilla.LandMarks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpadilla.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,7 +414,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.johnpadilla.LandMarks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnpadilla.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
